@@ -1,4 +1,4 @@
-# LeetCode Solutions in Python
+# LeetCode Solutions
 
 Tracking my progress solving LeetCode problems, organized by topic.
 
