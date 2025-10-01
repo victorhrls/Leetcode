@@ -12,17 +12,6 @@ Approach:
 
 
 # O(n^2) 
-#class Solution:
-#    def twoSum(self, nums, target):
-#        sum = 0 
-#        for i in range(len(nums)):              #fix
-#            for j in range(len(nums) -i):       #run through
-#                sum = sum + nums[i]
-#                if sum == target:
-#                    return i,j
-
-
-# O(n^2) 
 class Solution:
     def twoSum(self, nums, target):
         for i in range(len(nums)):              #fix
