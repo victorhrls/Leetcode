@@ -1,5 +1,5 @@
 """
-LeetCode #1 - Two Sum
+LeetCode - Two Sum
 Difficulty: Easy
 https://leetcode.com/problems/two-sum/
 
