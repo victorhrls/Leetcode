@@ -13,40 +13,40 @@ Approach:
 nums = [-1,0,1,2,-1,-4]
 
 def threeSum(nums):
+    triplets =[]
     size = len(nums)
-    result = True 
+    nums.sort()         #easier to work because i can see the extremes
 
-    while result:
-        for i in range(size):
-            sub_array = nums[i+1:size-2]
-            init = -nums[i]
-            double_sum = twoSum(sub_array,init)
+    for i in range(size-2):
+                        #i lock the first number
+        j = i+1         # next number
+        k = size -1
+        if i >0 and nums[i] == nums[i-1]:
+            continue # skip everything , not having doubles etc
+        while j<k:
+            first = nums[i]
+            second = nums[j]
+            last = nums[k] # last number
 
-            if double_sum:
-                row,col = double_sum 
-                result = False
-    return [nums[i],nums[row],nums[col]]
+            total = first+second+last 
 
-def twoSum(nums,target = 0):
-    size = len(nums)
-    for i in range(size):
-        result = nums[i]            # testing for the first number
-        for j in range(i+1,size):
-            result += nums[j]
-            if result == target:
-                return i,j
-            result = nums[i]
-        return False
+            if total > 0:
+                k=k-1
+            elif total <0:
+                j = j+1
+            else:
+                triplets.append([first,second,last])
+                j = j +1 
 
-
-a,b,c = threeSum(nums)
-
-print(a,b,c)
+                if j<k and nums[i] == nums[j]:
+                    j = j+1
+    
+    return triplets
 
 
-#row,col = twoSum(nums,)
 
-#print(row,col)
-#print(row,column)
-#threeSum(nums)
 
+
+a= threeSum(nums)
+
+print(a)
