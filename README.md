@@ -10,6 +10,7 @@ Tracking my progress solving LeetCode problems, organized by topic.
 ## Two Pointers
 
 - [3Sum](3sum.py) - Medium
+- [Valid Palindrome](valid_palindrome.py) - Easy
 
 ## Sliding Window
 
