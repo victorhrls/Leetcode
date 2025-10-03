@@ -1,5 +1,5 @@
 """
-LeetCode #2 - Contains Duplicate
+LeetCode - Contains Duplicate
 Difficulty: Easy
 https://leetcode.com/problems/contains-duplicate/description/
 
