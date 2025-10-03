@@ -14,6 +14,7 @@ Tracking my progress solving LeetCode problems, organized by topic.
 - [Valid Palindrome](valid_palindrome.py) - Easy
 
 ## Sliding Window
+- [Best Time to Buy and Sell Stock](best_time.py) - Medium
 
 ## Stack
 
