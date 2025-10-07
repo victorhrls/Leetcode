@@ -29,8 +29,6 @@ s = "({[]})"
 
 def sol(s):
     stack = []
-    size = len(s)
-
     
     opening = ['{','[','(']
 
@@ -39,20 +37,20 @@ def sol(s):
            ')': '('}
     #opening and close
 
+    for ch in s: #verify each caracther
+        if ch in opening:
+            stack.append(ch)
+        else:
+            #if it is empty
+            if not stack: return False
+            if stack.pop() != dic[ch]: # it is not the right one
+                return False
+    return len(stack) == 0 
+
+
     # read the string , if it is opening add to the stack
     # if it is closening check with pop
 
-    for i in range(size):
-        if stack[i] in opening:
-            stack.append(s[i])
-
-            if stack.pop() !=  dic[s[i]]: # the closing is different from its dictionary ?
-                return False
-        return False
+   
     
 
-dic = {'{': '}' , 
-           '[': ']',
-           '(': ')'}
-
-print(dic['{'])
