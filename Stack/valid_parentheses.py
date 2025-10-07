@@ -45,7 +45,7 @@ def sol(s):
             if not stack: return False
             if stack.pop() != dic[ch]: # it is not the right one
                 return False
-    return len(stack) == 0 
+    return len(stack) == 0
 
 
     # read the string , if it is opening add to the stack
