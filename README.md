@@ -23,6 +23,7 @@ Tracking my progress solving LeetCode problems, organized by topic.
 ## Binary Search
 
 - [Binary Search](binary_search.py) - Easy
+- [Search a 2D Matrix](search_2.py) - Medium
 
 ## Linked List
 

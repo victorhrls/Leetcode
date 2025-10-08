@@ -11,29 +11,49 @@ You must write an algorithm with O(log n) runtime complexity.
 Approach:
 """
 
+class Solution:
+    def search(self,seq,obj):
+        init = 0
+        ending = len(seq) - 1
+
+        while init<=ending: # i should run all the seqs
+            
+            midterm = init + (ending - init)//2
+
+            mid = seq[midterm]
+            if (mid == obj):
+                return midterm
+            elif obj > mid:
+                init = midterm + 1 #advances midterm
+            else:
+                ending = midterm - 1
+        return -1
+            
+
+# Test later the recursive way
 
 
-def binary_search(seq,obj):
-    init = 0
-    ending = len(seq) - 1
+'''
 
-    while init<=ending: # i should run all the seqs
-        
-        midterm = init + (ending - init)//2
+def binary_search(seq,goal,start,end):
+    # start = 0
+    # end = len(seq) -1
 
+    midterm = start + (end - start)//2
+
+    if start <= end:
         mid = seq[midterm]
-        if (mid == obj):
+
+        if mid == goal:
             return midterm
-        elif obj > mid:
-            init = midterm + 1 #advances midterm
-        else:
-            ending = midterm - 1
-    return -1
+        elif goal > mid:
+            new_start = midterm +1
+            return binary_search(seq,goal,new_start,end)
+        else:  #goal < mid
+            new_end = midterm -1
+            return binary_search(seq,goal,start,new_end)
 
-nums = [-1,0,3,5,9,12]
-target = 9
+    
+    return False
 
-print(binary_search(nums,target))
-
-
-
+'''
