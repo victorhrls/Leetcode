@@ -22,6 +22,8 @@ Tracking my progress solving LeetCode problems, organized by topic.
 
 ## Binary Search
 
+- [Binary Search](binary_search.py) - Easy
+
 ## Linked List
 
 ## Trees
