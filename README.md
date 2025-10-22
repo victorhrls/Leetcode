@@ -24,6 +24,7 @@ Tracking my progress solving LeetCode problems, organized by topic.
 
 - [Binary Search](binary_search.py) - Easy
 - [Search a 2D Matrix](search_2.py) - Medium
+- [Koko Eating Banans](koko_bananas.py) - Medium
 
 ## Linked List
 
