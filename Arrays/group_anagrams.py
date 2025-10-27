@@ -20,67 +20,57 @@ strs = ["eat","tea","tan","ate","nat","bat"]
 
 
 
-string = 'bolo'
+#string = 'bolo'
 
-print(string)
+#print(string)
 
 
-sorted = ''.join(sorted(string))
+#sorted = ''.join(sorted(string))
 
-print(sorted)
+#print(sorted)
 
-print()
+#print()
+
+
+
+
 
 def is_anagram(list_of_words):
+    # Keep the words already used
+    # Control of items already used
 
-
-    # sort everything out 
-
-    out =[]
+    out = set()
+    group_anagram = []
 
     for ch in list_of_words:
-
-
-        check = []
-
-        
+        #Verify if the words was used already
+        if ch in out:
+            continue
 
         word_of_test = ''.join(sorted(ch))
-
-        check.append(ch)
-
-        #print(word_of_test)
-
-        print(f'A palavra eh {ch} ,ela sorted eh {word_of_test} ')
-        # Check 2 by 2 if there is any anagram
-        # If it is anagram, add to the list
-
-        print()
-
+        check = []
 
         for candidate in list_of_words:
+            
+            sort = ''.join(sorted(candidate))
 
-            if candidate!= word_of_test: # skip first element
-                sort = ''.join(sorted(candidate))
+            if word_of_test == sort:
+                check.append(candidate)
 
-                print(word_of_test, candidate, sort)
+        out.update(check)
+        group_anagram.append(check)
 
 
-                if word_of_test == sort:
-                    check.append(candidate)
-                else:
-                    continue
-        
-        print(check)
+        # Now i have a list of words that entered , so i will pop them 
+    
+    return group_anagram
 
-        print()
 
-        out.append(check)
 
-        print(out)
+out= is_anagram(strs)
 
+print(out)
 
                 
         
 
-is_anagram(strs)
