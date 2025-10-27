@@ -6,6 +6,7 @@ Tracking my progress solving LeetCode problems, organized by topic.
 - [Two Sum](two_sum.py) - Easy
 - [Contains Duplicate](contains_duplicate.py) - Easy
 - [Valid Anagram](valid_anagra.py) - Easy
+- [Group Anagrams](group_anagrams.py) - Medium
 
 
 ## Two Pointers
