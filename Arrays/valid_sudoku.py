@@ -134,7 +134,7 @@ def is_valid_sudoku(matrix):
         if not col_ele or not row_ele : return False
 
 
-        # Then if the i is in some square ,check the 3rd condition
+    # Then if the i is in some square ,check the 3rd condition
 
     for row in range(0,9,3):
         for col in range(0,9,3):
@@ -148,3 +148,6 @@ def is_valid_sudoku(matrix):
 
 
     
+
+print(is_valid_sudoku(ex1))  
+print(is_valid_sudoku(ex2))  
