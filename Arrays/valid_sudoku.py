@@ -68,7 +68,7 @@ ex3 = [
 
 
 
-def valid_sudoku_block(matrix,size = 3):
+def valid_sudoku_block(matrix,start_row,start_col):
     # To verify each rule i should work with SETS
     # row r , column c -> Run through (r,c)
     # When it will be a subset?  -> Row = 0,3,6 / Column = 0,3,6
@@ -76,9 +76,11 @@ def valid_sudoku_block(matrix,size = 3):
     # What we have to VERIFY
 
     rule = {str(x):0 for x in np.arange(1,10)}
+
+    size = len(matrix)
     
-    for row in range(size):
-        for col in range(size):
+    for row in range(start_row, start_row +3):
+        for col in range(start_col, start_col +3):
 
             element = matrix[row][col]
             # Is it empty ?
@@ -91,23 +93,25 @@ def valid_sudoku_block(matrix,size = 3):
     return True
             
 
-def valid_row(matrix_row,size = 9):
+def valid_row(matrix,row_index):
 
     # the row is fixed
     row_rules = { str(i) : 0 for i in np.arange(1,10)}
+    size = len(matrix)
     for col in range(size): # so iterate EACH col and see what happens
-        element = matrix_row[matrix_row][col]
+        element = matrix[row_index][col]
 
         if element != '.':
             if row_rules[element] == 1: return False
             else: row_rules[element] +=1
     return True
 
-def valid_col(matrix_col,size = 9):
+def valid_col(matrix,col_index):
 
     col_rules = {str(i):0 for i in np.arange(1,10)}
+    size = len(matrix)
     for row in range(size):
-        element = matrix_col[row][matrix_col]
+        element = matrix[row][col_index]
 
         if element != '.':
             if col_rules[element] == 1 : return False
@@ -122,19 +126,25 @@ def is_valid_sudoku(matrix):
 
 
     size = len(matrix)
+    # First i will check line and column
+    for i in range(size): 
+        col_ele = valid_col(matrix,i)
+        row_ele = valid_row(matrix,i)
 
-    for element in range(size): 
+        if not col_ele or not row_ele : return False
 
-        # Check line and column
 
-        col_ele = valid_col
-        row_ele = valid_row
+        # Then if the i is in some square ,check the 3rd condition
 
-        # Then if the element is in some square ,check the 3rd condition
-        if element %3 == 0 : # so it is a new block
-            block_ele = valid_sudoku_block
+    for row in range(0,9,3):
+        for col in range(0,9,3):
 
-        if not col_ele or not row_ele or not block_ele : return False
+            if not valid_sudoku_block(matrix,row,col): return False
+
+    
+    return True
+        
+
 
 
     
