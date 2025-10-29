@@ -7,6 +7,8 @@ Tracking my progress solving LeetCode problems, organized by topic.
 - [Contains Duplicate](contains_duplicate.py) - Easy
 - [Valid Anagram](valid_anagra.py) - Easy
 - [Group Anagrams](group_anagrams.py) - Medium
+- [Top K Frequent Elements](top_k_freq.py) - Medium
+
 
 
 ## Two Pointers
