@@ -1,39 +1,92 @@
-# LeetCode Solutions
+# 🧠 LeetCode Solutions
 
 Tracking my progress solving LeetCode problems, organized by topic.
 
-## Arrays
-- [Two Sum](two_sum.py) - Easy
-- [Contains Duplicate](contains_duplicate.py) - Easy
-- [Valid Anagram](valid_anagra.py) - Easy
-- [Group Anagrams](group_anagrams.py) - Medium
-- [Top K Frequent Elements](top_k_freq.py) - Medium
-- [Encode and Decode Strings](encode_and_decode.py) - Medium
+---
 
+### 📚 Topics
+[▶️ Arrays](#-arrays) • [🔁 Two Pointers](#-two-pointers) • [⏱ Sliding Window](#-sliding-window) • [🧩 Stack](#-stack) • [🔎 Binary Search](#-binary-search) • [🔗 Linked List](#-linked-list) • [🌳 Trees](#-trees) • [🏗 Heap](#-heap) • [🌀 Backtracking](#-backtracking)
 
+---
 
-## Two Pointers
+## 🧩 Arrays
+| Problem | Difficulty |
+|----------|-------------|
+| [Two Sum](arrays/two_sum.py) | 🟢 Easy |
+| [Contains Duplicate](arrays/contains_duplicate.py) | 🟢 Easy |
+| [Valid Anagram](arrays/valid_anagram.py) | 🟢 Easy |
+| [Group Anagrams](arrays/group_anagrams.py) | 🟡 Medium |
+| [Top K Frequent Elements](arrays/top_k_freq.py) | 🟡 Medium |
+| [Encode and Decode Strings](arrays/encode_and_decode.py) | 🟡 Medium |
 
-- [3Sum](3sum.py) - Medium
-- [Valid Palindrome](valid_palindrome.py) - Easy
+🔝 [Back to top](#-leetcode-solutions)
 
-## Sliding Window
-- [Best Time to Buy and Sell Stock](best_time.py) - Medium
+---
 
-## Stack
-- [Valid Parentheses](valid_parentheses.py) - Easy
-- [Min Stack](min_stack.py) - Medium
+## 🔁 Two Pointers
+| Problem | Difficulty |
+|----------|-------------|
+| [3Sum](two_pointers/3sum.py) | 🟡 Medium |
+| [Valid Palindrome](two_pointers/valid_palindrome.py) | 🟢 Easy |
 
-## Binary Search
+🔝 [Back to top](#-leetcode-solutions)
 
-- [Binary Search](binary_search.py) - Easy
-- [Search a 2D Matrix](search_2.py) - Medium
-- [Koko Eating Banans](koko_bananas.py) - Medium
+---
 
-## Linked List
+## ⏱ Sliding Window
+| Problem | Difficulty |
+|----------|-------------|
+| [Best Time to Buy and Sell Stock](sliding_window/best_time.py) | 🟡 Medium |
 
-## Trees
+🔝 [Back to top](#-leetcode-solutions)
 
-## Heap
+---
 
-## Backtracking
+## 🧩 Stack
+| Problem | Difficulty |
+|----------|-------------|
+| [Valid Parentheses](stack/valid_parentheses.py) | 🟢 Easy |
+| [Min Stack](stack/min_stack.py) | 🟡 Medium |
+
+🔝 [Back to top](#-leetcode-solutions)
+
+---
+
+## 🔎 Binary Search
+| Problem | Difficulty |
+|----------|-------------|
+| [Binary Search](binary_search/binary_search.py) | 🟢 Easy |
+| [Search a 2D Matrix](binary_search/search_2.py) | 🟡 Medium |
+| [Koko Eating Bananas](binary_search/koko_bananas.py) | 🟡 Medium |
+
+🔝 [Back to top](#-leetcode-solutions)
+
+---
+
+## 🔗 Linked List
+_Work in progress..._
+
+🔝 [Back to top](#-leetcode-solutions)
+
+---
+
+## 🌳 Trees
+_Work in progress..._
+
+🔝 [Back to top](#-leetcode-solutions)
+
+---
+
+## 🏗 Heap
+_Work in progress..._
+
+🔝 [Back to top](#-leetcode-solutions)
+
+---
+
+## 🌀 Backtracking
+_Work in progress..._
+
+🔝 [Back to top](#-leetcode-solutions)
+
+---
