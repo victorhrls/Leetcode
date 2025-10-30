@@ -4,66 +4,82 @@ Tracking my progress solving LeetCode problems, organized by topic.
 
 ---
 
-### 📚 Topics
-[▶️ Arrays](#-arrays) • [🔁 Two Pointers](#-two-pointers) • [⏱ Sliding Window](#-sliding-window) • [🧩 Stack](#-stack) • [🔎 Binary Search](#-binary-search) • [🔗 Linked List](#-linked-list) • [🌳 Trees](#-trees) • [🏗 Heap](#-heap) • [🌀 Backtracking](#-backtracking)
+## 📘 Table of Contents
+
+- [📊 Arrays](#-arrays)
+- [🔁 Two Pointers](#-two-pointers)
+- [⏱️ Sliding Window](#️-sliding-window)
+- [🧩 Stack](#-stack)
+- [🔎 Binary Search](#-binary-search)
+- [🔗 Linked List](#-linked-list)
+- [🌳 Trees](#-trees)
+- [🏗️ Heap](#️-heap)
+- [🌀 Backtracking](#-backtracking)
+- [💻 C++ Implementations](#-cpp-implementations)
 
 ---
 
-## 🧩 Arrays
+## 📊 Arrays
+
 | Problem | Difficulty |
 |----------|-------------|
-| [Two Sum](arrays/two_sum.py) | 🟢 Easy |
-| [Contains Duplicate](arrays/contains_duplicate.py) | 🟢 Easy |
-| [Valid Anagram](arrays/valid_anagram.py) | 🟢 Easy |
-| [Group Anagrams](arrays/group_anagrams.py) | 🟡 Medium |
-| [Top K Frequent Elements](arrays/top_k_freq.py) | 🟡 Medium |
-| [Encode and Decode Strings](arrays/encode_and_decode.py) | 🟡 Medium |
+| [Two Sum](Arrays/two_sum.py) | 🟢 Easy |
+| [Contains Duplicate](Arrays/contains_duplicate.py) | 🟢 Easy |
+| [Valid Anagram](Arrays/valid_anagram.py) | 🟢 Easy |
+| [Group Anagrams](Arrays/group_anagrams.py) | 🟡 Medium |
+| [Top K Frequent Elements](Arrays/top_k_freq.py) | 🟡 Medium |
+| [Encode and Decode Strings](Arrays/encode_and_decode.py) | 🟡 Medium |
 
 🔝 [Back to top](#-leetcode-solutions)
 
 ---
 
 ## 🔁 Two Pointers
+
 | Problem | Difficulty |
 |----------|-------------|
-| [3Sum](two_pointers/3sum.py) | 🟡 Medium |
-| [Valid Palindrome](two_pointers/valid_palindrome.py) | 🟢 Easy |
+| [3Sum](Two%20Pointers/3sum.py) | 🟡 Medium |
+| [Valid Palindrome](Two%20Pointers/valid_palindrome.py) | 🟢 Easy |
 
 🔝 [Back to top](#-leetcode-solutions)
 
 ---
 
-## ⏱ Sliding Window
+## ⏱️ Sliding Window
+
 | Problem | Difficulty |
 |----------|-------------|
-| [Best Time to Buy and Sell Stock](sliding_window/best_time.py) | 🟡 Medium |
+| [Best Time to Buy and Sell Stock](Sliding%20Window/best_time.py) | 🟡 Medium |
 
 🔝 [Back to top](#-leetcode-solutions)
 
 ---
 
 ## 🧩 Stack
+
 | Problem | Difficulty |
 |----------|-------------|
-| [Valid Parentheses](stack/valid_parentheses.py) | 🟢 Easy |
-| [Min Stack](stack/min_stack.py) | 🟡 Medium |
+| [Valid Parentheses](Stack/valid_parentheses.py) | 🟢 Easy |
+| [Min Stack](Stack/min_stack.py) | 🟡 Medium |
 
 🔝 [Back to top](#-leetcode-solutions)
 
 ---
 
 ## 🔎 Binary Search
+
 | Problem | Difficulty |
 |----------|-------------|
-| [Binary Search](binary_search/binary_search.py) | 🟢 Easy |
-| [Search a 2D Matrix](binary_search/search_2.py) | 🟡 Medium |
-| [Koko Eating Bananas](binary_search/koko_bananas.py) | 🟡 Medium |
+| [Binary Search](Binary%20Search/binary_search.py) | 🟢 Easy |
+| [Search a 2D Matrix](Binary%20Search/search_2.py) | 🟡 Medium |
+| [Koko Eating Bananas](Binary%20Search/koko_bananas.py) | 🟡 Medium |
 
 🔝 [Back to top](#-leetcode-solutions)
 
 ---
 
 ## 🔗 Linked List
+
 _Work in progress..._
 
 🔝 [Back to top](#-leetcode-solutions)
@@ -71,13 +87,15 @@ _Work in progress..._
 ---
 
 ## 🌳 Trees
+
 _Work in progress..._
 
 🔝 [Back to top](#-leetcode-solutions)
 
 ---
 
-## 🏗 Heap
+## 🏗️ Heap
+
 _Work in progress..._
 
 🔝 [Back to top](#-leetcode-solutions)
@@ -85,8 +103,19 @@ _Work in progress..._
 ---
 
 ## 🌀 Backtracking
+
 _Work in progress..._
 
 🔝 [Back to top](#-leetcode-solutions)
 
 ---
+
+## 💻 C++ Implementations
+
+This folder contains C++ versions of selected LeetCode problems for performance comparison and syntax practice.
+
+| Folder | Description |
+|---------|-------------|
+| [cpp](cpp) | C++ solutions and experiments |
+
+🔝 [Back to top](#-leetcode-solutions)
