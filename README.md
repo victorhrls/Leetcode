@@ -8,6 +8,7 @@ Tracking my progress solving LeetCode problems, organized by topic.
 - [Valid Anagram](valid_anagra.py) - Easy
 - [Group Anagrams](group_anagrams.py) - Medium
 - [Top K Frequent Elements](top_k_freq.py) - Medium
+- [Encode and Decode Strings](encode_and_decode.py) - Medium
 
 
 
