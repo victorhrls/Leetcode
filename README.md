@@ -40,6 +40,8 @@ Tracking my progress solving LeetCode problems, organized by topic.
 |----------|-------------|
 | [3Sum](Two%20Pointers/3sum.py) | 🟡 Medium |
 | [Valid Palindrome](Two%20Pointers/valid_palindrome.py) | 🟢 Easy |
+| [Container Water](Two%20Pointers/container_water.py) | 🟡 Medium |
+
 
 🔝 [Back to top](#-leetcode-solutions)
 
