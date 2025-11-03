@@ -75,6 +75,8 @@ Tracking my progress solving LeetCode problems, organized by topic.
 | [Binary Search](Binary%20Search/binary_search.py) | 🟢 Easy |
 | [Search a 2D Matrix](Binary%20Search/search_2.py) | 🟡 Medium |
 | [Koko Eating Bananas](Binary%20Search/koko_bananas.py) | 🟡 Medium |
+| [Find Minimum Rotated Array](Binary%20Search/find_minimum_rot.py) | 🟡 Medium |
+
 
 🔝 [Back to top](#-leetcode-solutions)
 

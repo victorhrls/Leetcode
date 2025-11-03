@@ -59,54 +59,27 @@ nums = [11,13,15,17]
 #nums = [2,3,4,5,6,1,2]
 def findMin(array):
     
-    size = len(array)
-    
-    key = array[size//2] # in the middle 
-    left = array[size//2 -1]
-    right = array[size//2+1]
-    
-    print()
+    left = 0
+    right = len(array) - 1
     
     
-    print(f"We are dealing with size {size} \t key = {key} \t left = {left} \t  right = {right}")
-    
-    print()
     
     
-    # I should compare with both sides and pick it 
-    found = False
     
-    
-    while not found:
+    while left < right: # i will run throught this
         
-
-        if key > left: # should continue or found it ? 
+        mid = (left+right)//2
+        
+        print(f"left={left}, mid={mid}, right={right} | "
+              f"array[mid]={array[mid]}, array[right]={array[right]}")
+        
+        
+        
+        if array[mid] > array[right]:
+            left = mid +1 # advance the left
+        else:
+            right = mid
             
-            print(f"So we can say that {key} > {left}")
-            print()
-            if right > key:
-                print(f"So we can say {right} > {key}")
-                
-                key = array[(size//2) + 1] # still can grow 
-                
-                print("The key is ",key)
-            if right < key: # found the counterpoint
-                print(f"So we can say {right} < {key}")
-                key = right
-
-                found = True
-        else: # key < left 
-            # we are already on the min key
-            found = True
-            
-    return key
-
+    return array[left]
 print(findMin(nums))
-            
-            
-            
-
-           
-        
-        
         
