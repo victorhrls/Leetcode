@@ -85,7 +85,10 @@ Tracking my progress solving LeetCode problems, organized by topic.
 
 ## 🔗 Linked List
 
-_Work in progress..._
+
+| Problem | Difficulty |
+|----------|-------------|
+| [Reverse Linked](Linked%20List/reverse_linked.py) | 🟢 Easy |
 
 🔝 [Back to top](#-leetcode-solutions)
 
