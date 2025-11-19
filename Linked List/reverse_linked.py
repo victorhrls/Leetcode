@@ -51,13 +51,14 @@ class Linked_List:
 # The head is already a linked list
     
 def reverse_list(head):
-    lis = Linked_List()
+    direct = Linked_List()
     
-    head = Linked_List()
-    
+    inv = head[::-1]
+    for element in inv:
+        direct.append(element)
         
+    direct.view()
     
-    lis.view()
   
-test = [1,2,3,4,5]  
-reverse_list(test)
+head = [1,2,3,4,5]  
+reverse_list(head)
