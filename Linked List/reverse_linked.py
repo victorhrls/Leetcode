@@ -72,10 +72,7 @@ class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
         
         # I need 2 pointers
-        
-        
         curr = head 
-        
         prev = None 
         
         
