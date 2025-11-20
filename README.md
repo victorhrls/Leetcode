@@ -89,6 +89,8 @@ Tracking my progress solving LeetCode problems, organized by topic.
 | Problem | Difficulty |
 |----------|-------------|
 | [Reverse Linked](Linked%20List/reverse_linked.py) | 🟢 Easy |
+| [Merged Sorted](Linked%20List/merge_sorted.py) | 🟢 Easy |
+
 
 🔝 [Back to top](#-leetcode-solutions)
 
