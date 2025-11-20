@@ -62,3 +62,26 @@ def reverse_list(head):
   
 head = [1,2,3,4,5]  
 reverse_list(head)
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        
+        # I need 2 pointers
+        
+        
+        curr = head 
+        
+        prev = None 
+        
+        
+        while curr:
+            temp = curr.next 
+            curr.next = prev
+            prev = curr
+            curr = temp
+            
