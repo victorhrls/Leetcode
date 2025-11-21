@@ -25,33 +25,48 @@ class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+        
 class Solution:
     def reorderList(self, head):
         """
         Do not return anything, modify head in-place instead.
         """
-        # So i will just MODIFY HEAP
+        # First i need to find the half way 
         
-        # The nodes n1 -> n2 -> n3 ... nn will be
-        # n1 -> nn -> n2 -> nn-1 -> n3 .... 
         
-        # So we can check two patterns 
+        slow = head
+        fast = head
         
-        # First n1-> n2 -> n3 ... between the other nodes
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next 
+        # Slow will pont to the half of the list
         
-        # I can have two pointers .
+        second = slow.next # slice the list in two halfs
+        slow.next = None   # The list ended
         
-        # one pointer will check for n1-> n2 -> n3 ...
         
-        # The other pointer will be Nn -> nn-1 -> nn-2 ... (Backwards)
-                
-        reverse = reverse_list(head)
+        first = head    # first half
+        second = self.reverse_list(second)  # second half inverted
+        
+        
+        while first and second:
+            
+            temp_first = first.next
+            temp_second = second.next
+            
+            first.next = second
+            second.next = temp_first
+            
+            first = temp_first
+            second = temp_second
+        
+        
         
         
     def reverse_list(head):
         
         reverse = None
-        
         curr = head
         
         while curr:
