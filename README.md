@@ -92,6 +92,8 @@ Tracking my progress solving LeetCode problems, organized by topic.
 | [Merged Sorted](Linked%20List/merge_sorted.py) | 🟢 Easy |
 | [Linked List Cycle](Linked%20List/linked_list_cycle.py) | 🟢 Easy |
 | [Reorder List](Linked%20List/reorder_list.py) | 🟡 Medium |
+| [Remove Node](Linked%20List/remove_node.py) | 🟡 Medium |
+
 
 
 

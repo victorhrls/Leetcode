@@ -61,10 +61,9 @@ class Solution:
             first = temp_first
             second = temp_second
         
+            
         
-        
-        
-    def reverse_list(head):
+    def reverse_list(self,head):
         
         reverse = None
         curr = head
