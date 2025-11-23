@@ -104,7 +104,7 @@ Tracking my progress solving LeetCode problems, organized by topic.
 
 ## 🌳 Trees
 
-_Work in progress..._
+| [Invert Binary Tree](Trees/invert_binary.py) | 🟢 Easy |
 
 🔝 [Back to top](#-leetcode-solutions)
 
