@@ -105,6 +105,8 @@ Tracking my progress solving LeetCode problems, organized by topic.
 ## 🌳 Trees
 
 | [Invert Binary Tree](Trees/invert_binary.py) | 🟢 Easy |
+| [Maximum Depth of Binary Tree](Trees/max_depth.py) | 🟢 Easy |
+
 
 🔝 [Back to top](#-leetcode-solutions)
 
