@@ -111,6 +111,8 @@ Tracking my progress solving LeetCode problems, organized by topic.
 | [Maximum Depth of Binary Tree](Trees/max_depth.py) | 🟢 Easy |
 | [Subtree of Another Tree](Trees/sub_tree.py) | 🟢 Easy |
 | [Lowest Common Ancestor of a Binary Search Tree](Trees/lowest_ancestor.py) | 🟡 Medium |
+| [Binary Tree Level Order Traversal](Trees/transversal_binary.py) | 🟡 Medium |
+
 
 
 
